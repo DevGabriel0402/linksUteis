@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Olá, seja bem vindo a minha bio! Aqui você vai encontrar as principais formas de falar comigo e saber um pouco mais dos meus projetos. Obrigado por estar aqui 👋">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsividade.css" />
+
+
+  <script src="index.js" defer></script>
+  <title>Bio Link</title>
+</head>
+
+<body>
+  <!-- Container Principal -->
+  <div class="container">
+    <!-- Container das informações do perfil
+        contendo foto, nome e descrição -->
+    <div class="section-profile">
+      <img class="image-profile enterUp-1 " src="./src/profile.jpg" alt="image-profile" />
+      <h1 class="title-name enterUp-2 ">Gabriel Lucas</h1>
+      <p class="name-description enterUp-3">
+        Hi 👋 I'm Gabriel a creative and technology enthusiast. Welcome to my Bio where you can
+        find me in every social media !!
+      </p>
+    </div>
+
+    <!-- Container das informações de links como, github,
+        instagram, linkedin, X, e spotify -->
+
+    <div class="section-items">
+      <!-- Github -->
+      <div class="github ">
+
+        <div>
+          <img src="./src/github.svg" alt="github-icon" class="logo" />
+          <h2 class="title">Gabriel Lucas</h2>
+        </div>
+
+        <img src="./src/repositorio.svg" alt="img-repositorio" class="img-repo" />
+        <a href="https://github.com/DevGabriel0402" target="_blank" class="btn btn-github">Follow</a>
+      </div>
+
+      <!-- instagram -->
+      <div class="instagram ">
+        <a href="https://www.instagram.com/eu.gabrielvieira/" target="_blank">
+          <img src="./src/instagram.svg" alt="instagram-icon" class="logo" />
+          <h2 class="title">Instagram</h2>
+        </a>
+
+      </div>
+
+      <!-- Linkedin-->
+      <div class="linkedin ">
+        <a href="https://www.linkedin.com/in/gabriel-lucas-vieira-2384212a4/" target="_blank">
+          <img src="./src/linkedin.svg" alt="linkedin-icon" class="logo" />
+          <h2 class="title">Linkedin</h2>
+        </a>
+
+      </div>
+
+      <!-- Twitter -->
+      <div class="twitter ">
+        <div>
+          <img src="./src/twitter.svg" alt="twitter-icon" class="logo logo-twitter" />
+          <h2 class="title">Twitter</h2>
+          <h4 class="sub-title">@eu.gabrielvieira</h4>
+          <p class="description">
+            JavaScript is better than Python. </br>
+            Front End developer in progression...
+          </p>
+        </div>
+        <a href="https://twitter.com/gabriell_Lav" target="_blank" class="btn btn-twitter"> Follow </a>
+
+      </div>
+
+      <div class="spotify">
+        <img src="./src/spotify.svg" alt="github-icon" class="logo" id="logo-spotify" />
+        <h2 class="title">God's Eyes</h2>
+        <h4 class="sub-title">Dax</h2>
+          <div class="disc">
+            <img src="./src/dax.jpeg" alt="img-disc" id="disc-icon-thumb" class="disc-icon-thumb" />
+            <div class="div-disc" id="div-disc">
+              <img src="./src/disc-icon.svg" alt="img-disc" class="disc-icon" />
+              <audio id="music" controls="controls" class="hidden">
+                <source src="./src/gods-eyes-official.mp3" type="audio/mp3" />
+                seu navegador não suporta HTML5
+              </audio>
+            </div>
+
+          </div>
+          <!-- Botoes de Play e Pause -->
+          <div class="buttons">
+            <a id="btn-play" class="btn btn-play"> <img src="./src/play-icon.svg" class="play" id="play"
+                alt="play-icon">Play</a>
+            <a id="btn-pause" class="btn btn-pause hidden"> <img src="./src/pause-icon.svg" class="pause" id="pause"
+                alt="pause-icon">Pause</a>
+          </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+  <div class="section-projects">
+    <h1 class="title">Projetos</h1>
+    <div class="cards" id="cards-projects">
+      <!-- Card 01 -->
+      <div class="card ">
+        <div class="info-content">
+          <h4 class="title-info">Login Screen</h4>
+          <h6 class="url-info">previsaodotempo-io.netlify.app/ 🔗</h6>
+        </div>
+        <img src="./src/projects/login-screen.png" alt="login-screen-image" class=" thumb">
+
+      </div>
+      <!-- Card 02 -->
+      <div class="card">
+        <div class="info-content">
+          <h4 class="title-info">Weather Forecast</h4>
+          <h6 class="url-info">loginpage-io.netlify.app/ 🔗</h6>
+        </div>
+        <img src="./src/projects/Weather.png" alt="Project Weather Forecast" class=" thumb">
+
+      </div>
+      <!-- Card 03 -->
+      <div class="card">
+        <div class="info-content">
+          <h4 class="title-info">Digital Menu</h4>
+          <h6 class="url-info">menudigitalio.netlify.app/ 🔗</h6>
+        </div>
+        <img src="./src/projects/digital-menu.png" alt="Project Digital Menu" class=" thumb">
+
+      </div>
+      <!-- Card 04 -->
+      <div class="card">
+        <div class="info-content">
+          <h4 class="title-info">Comment-me</h4>
+          <h6 class="url-info">comentar-me.netlify.app/ 🔗</h6>
+        </div>
+        <img src="./src/projects/comment-me.png" alt="Project Comment-me" class=" thumb">
+
+      </div>
+      <!-- Card 05 -->
+      <div class="card">
+        <div class="info-content">
+          <h4 class="title-info">Preset</h4>
+          <h6 class="url-info">preset-io.netlify.app/ 🔗</h6>
+        </div>
+        <img src="./src/projects/Preset-io.png" alt="Project Preset" class=" thumb">
+
+      </div>
+    </div>
+  </div>
+  <footer>Desenvolvido com <span class="heart"> 💗 </span> por Gabriel</footer>
+</body>
+
+</html>

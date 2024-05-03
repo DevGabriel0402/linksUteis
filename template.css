@@ -1,0 +1,70 @@
+.section-projects {
+  padding: 10px 60px 10px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards {
+  width: 100%;
+  height: auto;
+  overflow-x: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  &::scrollbar-color {
+    background-color: transparent;
+  }
+}
+
+.card {
+  width: 390px;
+  height: 175px;
+  display: flex;
+  padding: 24px;
+  gap: 10px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px 0 #0000002a;
+}
+
+.thumb {
+  width: 180px;
+  height: 127px;
+  aspect-ratio: 1/1;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-info {
+  width: 100%;
+  color: #151515;
+  font-weight: normal;
+  font-size: 22px !important;
+  line-height: 100%;
+}
+
+.url-info {
+  margin-top: 5px;
+  font-weight: normal;
+  color: #15151550;
+  font-size: 10px;
+  display: -webkit-box;
+  width: 50px;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+}

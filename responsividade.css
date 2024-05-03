@@ -1,0 +1,165 @@
+@media screen and (max-width: 540px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-profile {
+    padding: 36px;
+    align-items: center;
+
+    & p {
+      font-size: 16px;
+    }
+  }
+
+  .section-items {
+    flex-wrap: wrap;
+    padding: 25px !important;
+    gap: 16px;
+    grid-template-areas:
+      "spotify"
+      "github"
+      "instagram"
+      "linkedin"
+      "twitter";
+    grid-template-columns: 100%;
+    grid-template-rows:
+      180px
+      180px
+      80px
+      80px
+      180px;
+  }
+
+  .spotify,
+  .github,
+  .twitter,
+  .linkedin,
+  .instagram {
+    min-width: 300px;
+    max-width: 500px;
+  }
+
+  .spotify {
+    .disc {
+      position: absolute;
+    }
+    .disc-icon-thumb {
+      right: 46px;
+    }
+    .div-disc {
+      right: 38px;
+      top: 3px;
+    }
+  }
+
+  .github {
+    position: relative;
+
+    .img-repo {
+      position: absolute;
+      right: 26px;
+      width: 100px;
+    }
+  }
+
+  .section-projects {
+    padding: 16px;
+  }
+
+  .cards {
+    margin-top: 10px !important;
+  }
+
+  .cards::-webkit-scrollbar-thumb {
+    width: 25px;
+    height: 4px;
+    background-color: #20202000 !important;
+  }
+
+  .cards::-webkit-scrollbar {
+    background-color: transparent;
+    height: 4px;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 1400px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-profile {
+    padding: 36px;
+    align-items: center;
+
+    & p {
+      font-size: 16px;
+    }
+  }
+  .section-items {
+    flex-wrap: wrap;
+    padding: 25px !important;
+    gap: 16px;
+    grid-template-areas:
+      "spotify github"
+      "instagram linkedin"
+      "twitter twitter";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 180px;
+  }
+
+  .spotify,
+  .github,
+  .twitter,
+  .linkedin,
+  .instagram {
+    width: 100%;
+  }
+  .spotify {
+    .disc {
+      position: absolute;
+    }
+    .disc-icon-thumb {
+      right: 46px;
+    }
+    .div-disc {
+      right: 38px;
+      top: 3px;
+    }
+  }
+  .github {
+    position: relative;
+
+    .logo {
+      margin-bottom: 2px;
+    }
+
+    .img-repo {
+      position: absolute;
+      right: 26px;
+      width: 100px;
+    }
+
+    .btn {
+      margin-top: 10px;
+    }
+  }
+
+  .cards {
+    margin-top: 10px !important;
+  }
+
+  .cards::-webkit-scrollbar-thumb {
+    width: 25px;
+    height: 4px;
+    background-color: #20202000 !important;
+  }
+
+  .cards::-webkit-scrollbar {
+    background-color: transparent;
+    height: 4px;
+  }
+}
