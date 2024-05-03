@@ -10,9 +10,9 @@ Alem disso foi utilizado a tag [audio] para colocar uma música com as ações d
     <h1 style="text-align: center">Desktop</h1>
     <img src="./src/projects/project-final.png">
     <h1 style="text-align: center">Mobile</h1>
-    <div style="display:flex; gap:2px">
-        <img width="50%" src="./src/projects/project-final-1.png">
-        <img width="50%"  src="./src/projects/project-final-2.png">
+    <div style="width: 100%; display:flex; gap:2px; align-items: center; justify-content: center;">
+        <img width="40%" src="./src/projects/project-final-1.png">
+        <img width="40%"  src="./src/projects/project-final-2.png">
     </div>
 
 </div>
