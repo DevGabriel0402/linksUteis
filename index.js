@@ -10,6 +10,7 @@ window.addEventListener("load", function () {
   const twitter = document.querySelector(".twitter");
   const linkedin = document.querySelector(".linkedin");
   const spotify = document.querySelector(".spotify");
+  const cards = document.querySelector(".cards");
 
   if (this.window.innerWidth < 1440) {
     spotify.classList.add("enterUp-1");
@@ -23,6 +24,7 @@ window.addEventListener("load", function () {
     linkedin.classList.add("enterUp-3");
     twitter.classList.add("enterUp-4");
     spotify.classList.add("enterUp-5");
+    cards.classList.add("enterUp-3");
   }
 });
 
