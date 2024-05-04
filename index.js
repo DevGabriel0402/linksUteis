@@ -79,8 +79,28 @@ music.addEventListener("ended", function () {
   }
 });
 
-const card1 = document.querySelector(".card-1");
-const card2 = document.querySelector(".card-2");
-const card3 = document.querySelector(".card-3");
-const card4 = document.querySelector(".card-4");
-const card5 = document.querySelector(".card-5");
+const card1 = document.querySelector(".card-1"); // Login Screen
+const card2 = document.querySelector(".card-2"); // Weather Forecast
+const card3 = document.querySelector(".card-3"); // Digital Menu
+const card4 = document.querySelector(".card-4"); // Comment-me
+const card5 = document.querySelector(".card-5"); // Preset
+
+card1.addEventListener("click", () => {
+  window.open("https://loginpage-io.netlify.app", "_blank");
+});
+
+card2.addEventListener("click", () => {
+  window.open("https://previsaodotempo-io.netlify.app", "_blank");
+});
+
+card3.addEventListener("click", () => {
+  window.open("https://menudigitalio.netlify.app", "_blank");
+});
+
+card4.addEventListener("click", () => {
+  window.open("https://comentar-me.netlify.app", "_blank");
+});
+
+card5.addEventListener("click", () => {
+  window.open("https://preset-io.netlify.app", "_blank");
+});
